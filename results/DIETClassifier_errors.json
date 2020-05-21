@@ -1,0 +1,15 @@
+[
+  {
+    "text": "cancel all meeting  on Tuesday",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "date",
+        "start": 23,
+        "end": 30,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,468 @@
+##intent:schedule_a_meeting
+- schedule a meeting on [monday](date) at [10 am](time)
+- create a meeting request [today](date) at [2 pm](time)
+- please start a meeting  in [5 minutes](time)
+- can you please create a meeting at [4 pm](time)
+- start a meeting on [monday](date) at [10 pm](time)
+- start meeting
+- schedule a meeting
+- plan a meeting at [5 pm](time) [today](date)
+- plan a meeting at [2 pm](time) (day after tomorrow)[date]
+- arrange a meeting
+- book a meetinG at [2 pm](time) [today](date)
+- fix a meeting on [monday](date) at [3 pm](time)
+- organize a meeting at [4pm](time) [today](date)
+- Block [3 pm](time) to [4 pm](time) [today](date)
+- start a meeting
+- can you schedule a meeting?
+- please schedule a meeting
+- kindly schedule a meeting for me at [2 o'clock](time)
+- suggest me the meeting times available?
+- lets have a meeting at [3 o'clock](time)
+- arrange me a meeting
+- schedule an appointment at [5 o'clock](time) [today](date)
+- could you arrange an appointment at [6 o'clock](time)
+- plan a meeting at around [7 o'clock](time) with [today](date)
+- adjust my meeting from [1 o'clock](time) to [2PM](time)
+- shift my time of meeting from [1 o'clock](time) to [2 o'clock](time) [tommorow](date)
+- settle a meeting with any time of this week
+- setup a meeting [tommorow](date) at around [4 o'clock](time)
+- organise a meeting this week 
+- schedule a meeting at [5pm](time) [today](date) for jiomeet discussion
+- schedule a meeting  at [5pm](time) [today](date) for jiomeet discussion
+- schedule a meeting  at [5pm](time) [today](date) for jiomeet discussion
+- schedule a meeting  at [5pm](time) [today](date) for jiomeet discussion
+- schedule a meeting at [5pm](time) [today](date) for jiomeet discussion
+- Schedule a meeting [day after tomorrow](date)
+- I want to schedule the meeting [day after tomorrow](date) at [3](time)
+- I want to schedule the meeting [today](date)
+
+<!---
+
+##intent:schedule_a_meeting
+- schedule a meeting on [monday](DATE) at [10 am](TIME)
+- create a meeting request [today](DATE) at [2 pm](TIME)
+- please start a meeting  in [5 minutes](TIME)
+- can you please create a meeting at [4 pm](TIME)
+- start a meeting on [monday](DATE) at [10 pm](TIME)
+- start meeting
+- schedule a meeting
+- plan a meeting at [5 pm](TIME) [today](DATE)
+- plan a meeting at [2 pm](TIME) (day after tomorrow)[DATE]
+- arrange a meeting
+- book a meetinG at [2 pm](TIME) [today](DATE)
+- fix a meeting on [monday](DATE) at [3 pm](TIME)
+- organize a meeting at [4pm](TIME) [today](DATE)
+- Block [3 pm](TIME) to [4 pm](TIME) [today](DATE)
+- start a meeting
+- can you schedule a meeting?
+- please schedule a meeting
+- kindly schedule a meeting for me at [2 o'clock](TIME)
+- suggest me the meeting times available?
+- lets have a meeting at [3 o'clock](TIME)
+- arrange me a meeting
+- schedule an appointment at [5 o'clock](TIME) [today](DATE)
+- could you arrange an appointment at [6 o'clock](TIME)
+- plan a meeting at around [7 o'clock](TIME) with [today](DATE)
+- adjust my meeting from [1 o'clock](TIME) to [2PM](TIME)
+- shift my time of meeting from [1 o'clock](TIME) to [2 o'clock](TIME) [tommorow](DATE)
+- settle a meeting with any time of this week
+- setup a meeting [tommorow](DATE) at around [4 o'clock](TIME)
+- organise a meeting this week 
+- schedule a meeting at [5pm](TIME) [today](DATE) for jiomeet discussion
+- schedule a meeting  at [5pm](TIME) [today](DATE) for jiomeet discussion
+- schedule a meeting  at [5pm](TIME) [today](DATE) for jiomeet discussion
+- schedule a meeting  at [5pm](TIME) [today](DATE) for jiomeet discussion
+- schedule a meeting at [5pm](TIME) [today](DATE) for jiomeet discussion
+- Schedule a meeting [day after tomorrow](DATE)
+- I want to schedule the meeting [day after tomorrow](DATE) at [3](TIME)
+- I want to schedule the meeting [today](DATE)
+-->
+
+##intent:meeting_day
+- day of meeting is [today](date)
+- meeting will be schedule on [tuesday](date)
+- schdeule meeting on [tomorrow](date)
+- meeting will be held on [moday](date)
+- schdeule meeting on [friday](date)
+- schdeule meeting on [thursday](date)
+- schdeule meeting on [day after tomorrow](date)
+- schdeule meeting on [coming moday](date)
+
+##intent:meeting_time
+- at [4pm](time)
+- at [6am](time)
+- from [3pm](time) to [4pm](time)
+- from [2](time) to [3](time)
+- at [6](time)
+- from [3](time)
+- at [4 o'clock](time)
+- at [5 o'clock](time)
+- at [4 pm](time)
+- at [6 am](time)
+- at [9 pm](time)
+
+<!---
+##intent:schedule_a_meeting
+- schedule a meeting with at 10 am
+- create a meeting request with  at 2 pm
+- please start a meeting with  in 5 minutes
+- can you please create a meeting with  at 4 pm
+- start a meeting with  on monday at 10 pm
+- start meeting with
+- schedule a meeting with
+- plan a meeting with  at 5 pm today
+- plan a meeting with  at 2 pm day after tomorrow
+- arrange a meeting with
+- book a meeting with  at 2 pm today
+- fix a meeting with  on monday at 3 pm
+- organize a meeting with  at 4pm today
+- Block 3 to 4 pm today with
+- start a meeting with
+- can you schedule a meeting?
+- please schedule a meeting
+- kindly schedule a meeting for me with at 2 o'clock
+- suggest me the meeting times available?
+- lets have a meeting at 3 o'clock  with
+- arrange me a meeting
+- schedule an appointment with   at 5 o'clock today
+- could you arrange an appointment with any time of 6 o'clock
+- plan a meeting at around 7 o'clock with today
+- adjust my meeting from 1 o'clock to between {time1} to {time2} today
+- shift my time of meeting from 1 o'clock to 2 o'clock tommorow
+- settle a meeting with any time of this week
+- setup a meeting tommorow with at around 4 o'clock
+- organise a meeting this week with
+- schedule a meeting with at 5pm today for jiomeet discussion
+- schedule a meeting with  at 5pm today for jiomeet discussion
+- schedule a meeting with  at 5pm today for jiomeet discussion
+- schedule a meeting with at 5pm today for jiomeet discussion
+- schedule a meeting with at 5pm today for jiomeet discussion
+- Schedule a meeting having day after tomorrow
+- Schedule a meeting having day after tomorrow
+- Schedule a meeting having day after tomorrow
+- Schedule a meeting having  day after tomorrow
+- I want to schedule the meeting with day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting  day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting  day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+- I want to schedule the meeting day after tomorrow at 3.
+-->
+
+##intent:cancel_meeting
+- cancel the meeting with
+- remove the meeting with
+- nullify the meeting with
+- drop the meeting with
+- stop the meeting with
+- cancel the todays meeting with
+- can you please cancel meeting with
+- withdraw the meeting with
+- call off today meeting with
+- call off meeting with
+- I want to cancel the meeting with  today at 3pm
+- I want to cancel the meeting  with today a 3pm
+- please cancel all meetings  with
+- please cancel all meeting  for me
+- can you please cancel the meeting  with
+- cancel all meeting  on Tuesday
+- cancel all meeting  with my for this entire week
+- I want to cancel meeting  with
+- can you cancel the meeting  with
+- cancel all meeting with
+
+##intent:my_call_is_dropping
+- my meeting is getting disconnected
+- video quality is very bad
+- unable to see other persons in the meeting
+- i am getting disconnected from call frequently
+- poor call quality
+- call getting disconnected frequently
+- suddenly call is getting disconnected
+- call ended automatically
+- facing the issue of automatic calls cancelation
+- calls getting cancelled automatically
+- calls abort automatically
+- calls aborted
+- calls are terminating
+- call halted
+- calls failure
+- calls quitting automatically
+- call dropped
+- call collapsed
+- calls crashing
+- calls declined
+- calls discarded
+- calls discontinued
+- facing issue in connecting the call
+- call is getting terminating
+- my call got stuck, there is some issue
+- why call is getting disconnected
+
+##intent:mute_all
+- mute all calls
+- mute all participants
+- could you mute all the participants
+- silence everyone
+- mute everyone
+- mute everybody
+- mute
+- everyone mute
+- everybody mute
+- all of you mute
+- can you please mute the call
+- mute all attendees
+- participants mute only
+- can you please mute
+- please mute
+- mute all the participants
+- mute everyone
+- mute all the persons
+- mute all the people
+- mute all
+- off the audio of everyone
+- off the mic of everyone
+- mute all the members
+- off the audio of all
+- off the audio of all the participants
+- switch the mic off of all the participants
+- off the mic of all
+- off the mic of participants
+- put everyone on mute
+- getting so much noise mute everyone
+- mute everyone
+- mute all the participants
+- every else please put your microphone on mute
+
+##intent:video_is_buffering
+- my video is buffering
+- my video conference calls keeps on buffering
+- video keeps on buffering
+- video is buffering alot
+- my video is reconnecting
+- video is getting buffered
+- video quality is being buffered
+- video call is reconnecting
+- video call is showing error
+- facing issue while reconnecting
+- video is reloading
+- video is inoperable
+- i am not able to perform screen share
+- video is loading again and again
+- video quality keeps distorting
+- video is loading forever
+- unable to see other people faces
+- video is not loading
+- video is not visible
+- video is buffering
+- video not visible
+- i am not able to see video
+- video is loading continuously
+- video is refreshing forever
+- blank screen in meeting
+- video quality is very bed
+- can't see other video
+- video is buffering too much
+- video  is stuck
+- video is no visible for many
+- video quality is not good
+- video for some people is not at visible
+- I can't see my video
+- my video is geeting stuck every time
+
+##intent:not_able_to_share_screen
+- i am unable to share my screen
+- my screen share is not working
+- my screen share got struck
+- share screen is not working
+- sharing screen is not working
+- screen share struck in between
+- after sharing screen is not visible
+- unable to share the screen
+- problem with the share screen
+- Screen share not working
+- screen share not happening
+- unable to share my screen
+- i am not able to show my screen in the videocall
+- i am facing failure in sharing my screen
+- facing difficulty in sharing the screen
+- reason for not able to share a screen on jiomeet videocall
+- sharing screen in videocall is inoperative
+- screen sharing is aborted automatically
+- facing issues in sharing my screen in videocall
+- while sharing screen i am getting an error
+- unable to allow the screen to share
+- unable to dispense my screen during the call
+- facing trouble during screen share
+- i am inadequate to share my screen
+- I am incapable of sharing my screen
+- i am inefficient to share my screen
+- I am not to click on share screen icon
+- facing issue in sharing screen
+- not able to share my screen
+- screen sharing is not working
+- can not share screen, something is wrong
+- my screen got stuck after sharin
+- I have started sharing screen but other are not able to see my screen
+- screen sharing is got stcuk
+
+##intent:jiomeet_not_working
+- jio meet app is not working
+- unable to open jiomeet app
+- jio meet app got struck
+- unable to call from jiomeet
+- unable to start meeting in jiomeet
+- jio meet app issue
+- jio meet app not opening
+- jio meet not functioning
+- jio meet is not running properly
+- issue while using jiomeet
+- unable to connect to jiomeet
+- unable to schedule a meeting in jiomeet
+- jiomeet is not operating
+- facing failures in jiomeet connection
+- jio meet is inoperative
+- jio meet is defective
+- jio meet is malfunctioning
+- jio meet is not functioning
+- jio meet is inoperable
+- jio meet is not working properly
+- jio meet is broken
+- jiomeet is down
+- jiomeet is out of order
+- jiomeet is showing me error while opening
+- jiomeet is not opening
+- I am not able to open the jiomeet app
+- I facing some issue in scheduling the meeting
+- app got strcut, not able to open in
+- meeting is not scheduling from jiomeet
+- not able to schedule the meeting
+- jiomeet app is not opening for me
+- jiomeet app not working
+- app is taking way too much time to open
+- getting error in accessing jiomeet
+- jiomeet app got stuck for me
+
+##intent:join_a_meeting
+- I want to join a meeting
+- add me into meeting [2381710392](meeting_id)
+- add me into meeting
+- can you please add me into meeting
+- I want to join the meeting [3473456190](meeting_id)
+- can you add me into meeting [2381710392](meeting_id)
+- want to join meeting [2381710392](meeting_id)
+- add me into meeting [2381710392](meeting_id)
+- add me into meeting id [3456768909](meeting_id)
+- add me into meeting id
+- I want to join meeting with id [3254768798](meeting_id)
+- I want to join meeting with id
+
+##intent:id_of_meeting
+- my meeting id is [3254768798](meeting_id)
+- it is [3456768909](meeting_id)
+- its [2381710392](meeting_id)
+- meeting id is [3473456190](meeting_id)
+- [2381710392](meeting_id)
+- [2381710392](meeting_id)
+- id [2381710392](meeting_id)
+- id is [2381710392](meeting_id)
+
+##intent:audio_not_clear
+- audio is breaking
+- i am unable to hear what others are speaking
+- unable to hear other people voice
+- disturbance while others are speaking
+- more background voice while others are speaking
+- audio is not understandable
+- audio is not clearly audible
+- audio is disturbing in between
+- audio is not audible in between
+- audio was breaking in between
+- audio is dismal
+- audio is inaudible
+- audio is breaking
+- voice is breaking
+- audio quality is poor
+- voice is unpleasant
+- voice is  dull
+- audio quality is dull
+- not able to hear the audio
+- voice is hazy
+- voice is  not tranparent
+- audio is dim
+- audio clarity is opaque
+- audio is blurred
+- audio is cloudy
+- hey  your audio is not clear
+- hey  I am not able to hear you
+- hey  your voice is breaking in between
+- hey  your voice is buffuring 
+- Sorry  I didn't hear you, can you repeat that?
+- hey , What was that, I didn't hear you?
+- Sorry  I didn't hear you?
+- your voice is distorting 
+- something is wrong,because your voice is buffuring too much
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?

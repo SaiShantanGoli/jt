@@ -1,0 +1,101 @@
+intents:
+  - schedule_a_meeting
+  - meeting_day
+  - meeting_time
+  - cancel_meeting
+  - my_call_is_dropping
+  - mute_all
+  - audio_not_clear
+  - video_is_buffering
+  - not_able_to_share_screen
+  - jiomeet_not_working
+  - join_a_meeting
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - id_of_meeting
+
+entities:
+  - date
+  - time
+  - meeting_id
+
+actions:
+  - action_a_meeting
+  - action_join_meeting
+
+slots:
+  date:
+    type: unfeaturized
+  time:
+    type: unfeaturized
+  meeting_id:
+    type: unfeaturized
+
+responses:
+  utter_ask_time:
+  #- text: "Can you please provide the time of meeting"
+  - text: "To schedule the a meeting on {date}. I need time of meeting"
+
+  utter_ask_date:
+  - text: "on which date you want to schedule meeting at {time}"
+
+  utter_meeting_info:
+  - text: '{time}'
+  
+  utter_meeting_time:
+  - text: "plese provide time of meeting"
+
+  utter_show_meeting_info:
+  - text: "meeting will be schdeule on {day} at {time}"
+
+  utter_cancel_meeting_info:
+  - text: " please cancel my meeting"
+
+  utter_my_call_is_dropping_info:
+  - text: "why my call is dropping?"
+  
+  utter_mute_all_info:
+  - text: "okay i will mute all"
+
+  utter_audio_not_clear_info:
+  - text: "use headphones"
+
+  utter_video_is_buffering_info:
+  - text: 'restart app or check your internet'
+
+  utter_not_able_to_share_screen_info:
+  - text: "try again"
+
+  utter_jiomeet_not_working_info:
+  - text: "my jiomeet app is not working"
+  
+  utter_join_a_meeting_info:
+  - text: "add me into meeting 123"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
